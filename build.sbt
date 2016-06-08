@@ -7,16 +7,16 @@ organization := "name.dmitrym"
 scalaVersion := "2.11.8"
 
 libraryDependencies ++= Seq(
-  "com.typesafe.akka" %% "akka-http-experimental" % "2.4.4",
-  "com.typesafe.akka" %% "akka-http-jackson-experimental" % "2.4.4",
-  "com.softwaremill.akka-http-session" %% "core" % "0.2.5",
-  "org.mongodb.scala" %% "mongo-scala-driver" % "1.1.0",
-  "org.specs2" %% "specs2-core" % "3.7.2" % "test",
-  "org.specs2" %% "specs2-scalacheck" % "3.7.2" % "test"
+  "com.typesafe.akka" %% "akka-http-experimental" % "2.4.7",
+  "com.typesafe.akka" %% "akka-http-jackson-experimental" % "2.4.7",
+  "com.softwaremill.akka-http-session" %% "core" % "0.2.6",
+  "org.mongodb.scala" %% "mongo-scala-driver" % "1.1.1",
+  "org.specs2" %% "specs2-core" % "3.8.3" % "test",
+  "org.specs2" %% "specs2-scalacheck" % "3.8.3" % "test"
 )
 
 scalacOptions ++= Seq(
-  "-deprecation", "-feature", "-optimise", "-unchecked", "-Xlint:_", "-Ydead-code", "-Yopt:_", "-Ywarn-dead-code",
+  "-deprecation", "-feature", "-unchecked", "-Xlint:_", "-Ydead-code", "-Yopt:_", "-Ywarn-dead-code",
   "-Ywarn-numeric-widen", "-Ywarn-unused", "-Ywarn-unused-import", "-Ywarn-value-discard"
   )
 
