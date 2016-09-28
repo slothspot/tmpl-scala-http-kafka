@@ -7,13 +7,13 @@ organization := "name.dmitrym"
 scalaVersion := "2.11.8"
 
 libraryDependencies ++= Seq(
-  "com.typesafe.akka" %% "akka-http-experimental" % "2.4.9",
-  "com.typesafe.akka" %% "akka-http-jackson-experimental" % "2.4.9",
-  "com.softwaremill.akka-http-session" %% "core" % "0.2.6",
-  "com.softwaremill.akka-http-session" %% "jwt" % "0.2.6",
-  "org.mongodb.scala" %% "mongo-scala-driver" % "1.1.1",
-  "org.specs2" %% "specs2-core" % "3.8.4" % "test",
-  "org.specs2" %% "specs2-scalacheck" % "3.8.4" % "test"
+  "com.typesafe.akka" %% "akka-http-experimental" % "2.4.10",
+  "com.typesafe.akka" %% "akka-http-jackson-experimental" % "2.4.10",
+  "com.softwaremill.akka-http-session" %% "core" % "0.2.7",
+  "com.softwaremill.akka-http-session" %% "jwt" % "0.2.7",
+  "org.mongodb.scala" %% "mongo-scala-driver" % "1.2.0-beta1",
+  "org.specs2" %% "specs2-core" % "3.8.5" % "test",
+  "org.specs2" %% "specs2-scalacheck" % "3.8.5" % "test"
 )
 
 scalacOptions ++= Seq(
